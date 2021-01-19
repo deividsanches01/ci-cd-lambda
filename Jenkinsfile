@@ -1,8 +1,8 @@
-def bucket = 'deployment-packages-mlabouardy'
+def bucket = 'lambda-artfacts'
 def functionName = 'Fibonacci'
-def region = 'eu-west-3'
+def region = 'us-east-1'
 
-node('slaves'){
+node('master'){
     stage('Checkout'){
         checkout scm
     }
