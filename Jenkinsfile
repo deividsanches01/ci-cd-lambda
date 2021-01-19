@@ -1,5 +1,5 @@
 def bucket = 'lambda-artfacts'
-def functionName = 'Fibonacci'
+def functionName = 'teste-lambda'
 def region = 'us-east-1'
 
 node('master'){
